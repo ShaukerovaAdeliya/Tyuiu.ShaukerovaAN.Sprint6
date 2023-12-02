@@ -34,13 +34,13 @@ namespace Tyuiu.ShaukerovaAN.Sprint6.Task1.V9
 
                 valueArray = ds.GetMassFunction(startStep, stopStep);
                 textBoxResult_SAN.Text = "";
-                textBoxResult_SAN.AppendText("+--------------------------+--------------------------+" + Environment.NewLine);
-                textBoxResult_SAN.AppendText("+         x                +         f(x)             +" + Environment.NewLine);
-                textBoxResult_SAN.AppendText("+--------------------------+--------------------------+" + Environment.NewLine);
+                textBoxResult_SAN.AppendText("+----------+------------+" + Environment.NewLine);
+                textBoxResult_SAN.AppendText("|    X     |     f(x)   |" + Environment.NewLine);
+                textBoxResult_SAN.AppendText("+----------+------------+" + Environment.NewLine);
 
                 for (int i = 0; i <= len - 1; i++)
                 {
-                    strLine = String.Format("|      [0.5:d]             |       {1 ,     7:f2}            |", startStep, valueArray[i]);
+                    strLine = String.Format("|{0,5:d}     | {1,7:f2}    |", startStep, valueArray[i]);
                     textBoxResult_SAN.AppendText(strLine + Environment.NewLine);
                     startStep++;
                 }
