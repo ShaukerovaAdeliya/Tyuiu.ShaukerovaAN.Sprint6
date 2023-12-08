@@ -192,7 +192,7 @@ namespace Tyuiu.ShaukerovaAN.Sprint6.Task4.V23
             // 
             // panelLeft_SAN
             // 
-            this.panelLeft_SAN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panelLeft_SAN.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.panelLeft_SAN.Controls.Add(this.splitterFill_SAN);
             this.panelLeft_SAN.Controls.Add(this.splitterLeft_SAN);
             this.panelLeft_SAN.Dock = System.Windows.Forms.DockStyle.Left;
@@ -219,7 +219,7 @@ namespace Tyuiu.ShaukerovaAN.Sprint6.Task4.V23
             // 
             // panelFill_SAN
             // 
-            this.panelFill_SAN.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panelFill_SAN.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.panelFill_SAN.Controls.Add(this.chartResult_SAN);
             this.panelFill_SAN.Controls.Add(this.buttonSave_SAN);
             this.panelFill_SAN.Controls.Add(this.buttonHelp_SAN);

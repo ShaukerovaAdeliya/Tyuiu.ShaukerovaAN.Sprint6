@@ -41,7 +41,6 @@ namespace Tyuiu.ShaukerovaAN.Sprint6.Task4.V23
 
                 valueArray = ds.GetMassFunction(startStep, stopStep);
 
-                //this.chartFunction.Titles.Add("График функции f(x)=4 - 2X+(2+Cos(x)/ 2x-2)")
 
                 this.chartResult_SAN.ChartAreas[0].AxisX.Title = "Ось X";
                 this.chartResult_SAN.ChartAreas[0].AxisY.Title = "Ось Y";
