@@ -21,7 +21,7 @@ namespace Tyuiu.ShaukerovaAN.Sprint6.Task4.V23.Test
             double[] WaitArray;
             WaitArray = new double[len];
 
-            WaitArray[0] = 13.81;
+            WaitArray[0] = -15.40;
             WaitArray[1] = 11.87;
             WaitArray[2] = 9.87;
             WaitArray[3] = 7.74;

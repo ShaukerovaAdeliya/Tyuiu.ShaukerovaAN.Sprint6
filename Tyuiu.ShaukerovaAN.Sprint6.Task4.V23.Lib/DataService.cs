@@ -27,7 +27,7 @@ namespace Tyuiu.ShaukerovaAN.Sprint6.Task4.V23.Lib
                 }
                 else
                 {
-                    y = Math.Round(4 - (2 * x) + ((2 + Math.Cos(x)) / divisor), 2);
+                    y = Math.Round((5*x+2.5)/(Math.Sin(x)+3) +2*x+Math.Cos(x),2);
                 }
 
                 valueArray[count] = y;
